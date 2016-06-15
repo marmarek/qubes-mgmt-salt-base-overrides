@@ -1,1 +1,2 @@
 srv/salt/_modules/localemod.py*
+srv/salt/_modules/yumpkg_fix.py*

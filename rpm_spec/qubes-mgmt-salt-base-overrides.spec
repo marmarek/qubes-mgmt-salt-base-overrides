@@ -61,6 +61,7 @@ qubesctl saltutil.sync_all refresh=true -l quiet --out quiet > /dev/null || true
 %doc LICENSE README.rst
 %attr(750, root, root) %dir /srv/salt/_modules
 /srv/salt/_modules/localemod.py*
+/srv/salt/_modules/yumpkg_fix.py*
 
 %files libs
 %{python_sitearch}/qubes/*
